@@ -94,5 +94,5 @@ fi
 source $ZSH/oh-my-zsh.sh
 
 # custom styling for a minimalist, fast session
-PS1="%{${fg[yellow]}%}$ "
-RPS1='%{${fg[magenta]}%}%~%{${fg[cyan]}%}'
+export PS1="%{${fg[yellow]}%}$ "
+export RPS1='%{${fg[magenta]}%}%~%{${fg[cyan]}%}'
