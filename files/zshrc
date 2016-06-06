@@ -53,9 +53,8 @@ plugins=(git)
 
 # User configuration
 
-# set custom PS1
-# PS1="%{${fg[yellow]}%}➜ "
-# RPS1='%{${fg[red]}%}$(current_branch) %{${fg[magenta]}%}%~%{${fg[cyan]}%}'
+# ensure we're using XTERM
+export TERM=xterm
 
 # clear PATH so we can explicitly build it
 export PATH=""
