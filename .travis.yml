@@ -7,4 +7,4 @@ before_install:
   - docker build -t nanobox/dev -f Dockerfile .
 
 
-script: sudo tests/run.sh
+script: sudo test/run_all.sh
