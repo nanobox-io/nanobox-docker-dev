@@ -7,7 +7,7 @@
 
 @test "Verify zsh installed" {
   # ensure zsh executable exists
-  run docker exec "zsh-test" bash -c "[ -f /usr/bin/zsh ]"
+  run docker exec "dev-test" bash -c "[ -f /usr/bin/zsh ]"
 
   [ "$status" -eq 0 ]
 }

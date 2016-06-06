@@ -7,7 +7,7 @@
 
 @test "Verify oh-my-zsh installed" {
   # ensure oh-my-zsh config exists
-  run docker exec "zsh-test" bash -c "[ -d /home/gonano/.oh-my-zsh ]"
+  run docker exec "dev-test" bash -c "[ -d /home/gonano/.oh-my-zsh ]"
 
   [ "$status" -eq 0 ]
 }
