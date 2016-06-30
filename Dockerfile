@@ -14,4 +14,4 @@ RUN su - gonano -c "/var/tmp/install-oh-my-zsh.sh"
 # copy the .zshrc file
 COPY files/zshrc /home/gonano/.zshrc
 
-CMD [ "/opt/gonano/bin/nanoinit", "/bin/sleep 365d" ]
+CMD [ "/opt/gonano/bin/nanoinit", "/bin/sleep", "365d" ]
